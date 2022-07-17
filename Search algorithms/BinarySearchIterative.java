@@ -10,7 +10,7 @@ public class BinarySearchIterative {
             else
                 r = mid - 1;
         }
-        // We reach here when element is not present in array
+        // Value not found
         return -1;
     }
     public static void main(String[] args){
