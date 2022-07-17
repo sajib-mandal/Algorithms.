@@ -9,7 +9,7 @@ class BinarySearchRecursive {
                 return binarySearch(arr, l, mid - 1, x);
             return binarySearch(arr, mid + 1, r, x);
         }
-        // We reach here when elements is not present in array
+        // Value not found
         return -1;
     }
 
