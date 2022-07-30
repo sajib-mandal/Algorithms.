@@ -1,6 +1,6 @@
 class BinarySearchRecursive {
     int binarySearch(int arr[], int l, int r, int x){
-        if(l <= r){
+        while(l <= r){
             int mid = l + (r - l) / 2;
 
             if (arr[mid] == x)
